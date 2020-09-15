@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="2b9ddb02-e20f-4b34-9b03-eeca57bfa523" ChangeDateTime="09/14/2020 19:14:07">
+    <Property Name="ElementName" Value="[dbo].[Document].[FileName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Document]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DocumentName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d3c54f61-394f-44c6-bce9-68a933c664a1" ChangeDateTime="09/14/2020 19:14:31">
+    <Property Name="ElementName" Value="[dbo].[Document].[CreationDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Document]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CreationDateTime" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="72c75d81-2d6a-46a0-b30c-382698c213c9" ChangeDateTime="09/14/2020 19:17:41">
+    <Property Name="ElementName" Value="[dbo].[Document].[CreationDateTime]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Document]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ModifiedDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="76f41394-9b69-4621-b86c-50db23e3ca2b" ChangeDateTime="09/14/2020 19:17:45">
+    <Property Name="ElementName" Value="[dbo].[Document].[UploadDateTime]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Document]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UploadDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6207416d-9551-436c-8255-11686f4a7cc5" ChangeDateTime="09/14/2020 19:44:25">
+    <Property Name="ElementName" Value="[dbo].[SortField].[Direction]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SortField]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DirectionAcending" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e847d68b-4296-4b4a-afed-4259d893d4e0" ChangeDateTime="09/14/2020 20:31:50">
+    <Property Name="ElementName" Value="[dbo].[SortField].[FieldName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SortField]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SortFieldName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c99aed9c-cab1-4004-aac4-ab60cfcb86c9" ChangeDateTime="09/15/2020 17:19:52">
+    <Property Name="ElementName" Value="[dbo].[SortField].[DirectionAcending]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SortField]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Direction" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="daf25f6d-075c-4315-8805-0665a6bd7267" ChangeDateTime="09/15/2020 17:19:56">
+    <Property Name="ElementName" Value="[dbo].[SortField].[SortFieldName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SortField]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FieldName" />
+  </Operation>
+</Operations>
